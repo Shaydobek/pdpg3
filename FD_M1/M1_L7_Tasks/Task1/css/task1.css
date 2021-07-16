@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./font/OpenSans-Bold.ttf") format("truetype");
+}
+
+.block{
+  display: flex;
+}
+
+.child{
+  border: 2px solid rgb(211, 205, 205);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  width: 300px;
+  height: 350px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+
+.text-color{
+  color: rgb(138, 133, 133);
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+p{
+  text-align: center;
+  font-family: "OpenSans-Bold", sans-serif;
+}

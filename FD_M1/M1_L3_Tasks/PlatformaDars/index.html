@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Forms and Media files</title>
+</head>
+<body>
+  
+  <form action="https://google.com" method="get">
+    <p>
+      <label for="title">Maqola sarlavhasini kiriting</label><br>
+      <input type="text" id="title" placeholder="Max. 10 ta simvol" required maxlength="10">
+    </p>
+
+    <p>
+      <label for="category">Kategoriyani tanlang</label><br>
+      <select id="category" >
+        <option value="1">Sport</option>
+        <option value="2">Iqtisodiyot</option>
+        <option value="3">Madaniyat</option>
+      </select>
+    </p>
+
+    <p>
+      <label for="text">Asosiy matnni kiriting</label><br>
+      <textarea  id="text" cols="30" rows="10" maxlength="100"></textarea>
+    </p>
+
+    <p>
+      <button type="submit">Yuborish</button>
+    </p>
+  </form>
+
+  <video src="./video.mp4" width="300" height="200" controls loop></video> <br>
+
+  <audio src="./yulduz-usmonova-bebaho_(uzhits.net).mp3" controls></audio>
+</body>
+</html>

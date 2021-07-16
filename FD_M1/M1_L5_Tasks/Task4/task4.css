@@ -1,0 +1,32 @@
+.block {
+  display: flex;
+}
+
+.child-block {
+  flex: 1;
+  background-color: rgb(230, 230, 230);
+  margin: 2.5px 2.5px 2.5px 2.5px;
+  padding: 2rem 3rem;
+}
+
+.img {
+  text-align: center;
+}
+
+.title {
+  font-family: Calibri;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.p {
+  font-family: Calibri;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.a {
+  color: blue;
+  text-decoration: none;
+}

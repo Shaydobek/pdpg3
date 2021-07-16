@@ -1,0 +1,26 @@
+.block{
+  display: flex;
+  background-color: rgb(216, 215, 215);
+  width: 800px;
+}
+
+.box{
+  margin: 30px;
+  position: relative;
+  font-family: sans-serif;
+  font-size: 24px;
+}
+
+.abs{
+  position: absolute;
+  right: -35px;
+  top: 6px;
+  color: white;
+  background-color: blue;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

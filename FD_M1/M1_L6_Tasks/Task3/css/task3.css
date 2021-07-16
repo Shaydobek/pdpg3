@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./font/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./font/OpenSans-Bold.ttf") format("truetype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block-image-1{
+  border: 1px solid #aca9a9;
+  background-image:linear-gradient(transparent,transparent, #7272b6),url(../images/product-3.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 430px;
+  width: 650px;
+  margin: 10px;
+}
+
+.block-image-2{
+  border: 1px solid #aca9a9;
+  background-image:linear-gradient(transparent,transparent, #7272b6),url(../images/product-4.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 430px;
+  width: 650px;
+  margin: 10px;
+}
+
+.block-image-3{
+  border: 1px solid #aca9a9;
+  background-image:linear-gradient(transparent,transparent, #7272b6),url(../images/product-5.png);
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat; 
+  height: 430px;
+  width: 650px;
+  margin: 10px;
+}
+
+p{
+  text-align: right;
+  font-style: italic;
+  line-height: 40px;
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+.block-text{
+  font-size: 22px;
+  color: #fff;
+  font-family: 'Fjalla One', sans-serif;
+  padding-top: 320px;
+  margin-right: 10px;
+}

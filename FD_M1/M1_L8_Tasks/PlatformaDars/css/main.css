@@ -1,0 +1,41 @@
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.flex{
+  background-color: indianred;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 120px;
+  height: 50px;
+}
+
+.rel{
+  width: 250px;
+  height: 250px;
+  background-color: darkgray;
+  position: relative;
+}
+
+.abs{
+  background-color: indianred;
+  color: white;
+  padding: 15px;
+  position: absolute;
+  right: -20px;
+  top: 10px;
+}
+
+.st{
+  background-color: darkgray;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+}

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./font/OpenSans-Bold.ttf") format("truetype");
+}
+
+.block{
+  width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+p{
+  padding: 0 1rem ;
+  text-align: left;
+  line-height: 20px;
+  letter-spacing: 1px;
+  font-size: 30px;
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+.father{
+  display: flex;
+}
+
+a{
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "OpenSans-Regular", sans-serif;
+}
+
+.a{
+  color: white;
+}
+
+.child-1{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 1rem;
+  background-image: linear-gradient(90deg, rgba(199, 64, 64, 0.801), rgba(199, 197, 64, 0.801));
+}
+
+.child-2{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 1rem;
+  background-image: linear-gradient(90deg, rgb(5, 255, 255), rgba(22, 59, 184, 0.801));
+}
+
+.child-3{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 1rem;
+  background-image: linear-gradient(90deg, rgba(104, 255, 235, 0.801), rgba(42, 206, 21, 0.801));
+}
+
+.child-4{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 1rem;
+  background-image: linear-gradient(90deg, rgba(217, 64, 231, 0.801), rgba(231, 15, 87, 0.801));
+}
+
+.child-5{
+  text-align: center;
+  width: 100px;
+  height: 25px;
+  margin: 2.5px;
+  padding: 1rem;
+  background-color: rgb(218, 214, 214);
+}

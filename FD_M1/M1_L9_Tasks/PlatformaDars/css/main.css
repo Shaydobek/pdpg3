@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.btn{
+  background-color: indigo;
+  color: #ffffff; /* 0-9 and a-f*/
+  border: none;
+  padding: 0.85rem 1.2rem;
+
+  /* transition-duration: 2s;
+
+  /* transition-property: background-color; */
+  /* transition-property: background-color, color, border; */
+  /* transition-property: all; */
+
+  /* transition-delay: 0s; */
+
+  /* transition-timing-function: linear; */
+
+  /* transition: 2s all 0s linear; */
+}
+
+.btn:hover{
+  background-color: transparent;
+  border: 1px solid indigo;
+  color: black;
+}
+
+.btn:active{
+  background-color: rgb(144, 30, 226);
+  color: #ffffff;
+}
+
+
+body{
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+.block{
+  /* display: inline-block; */
+  /* width: 1200px; */
+  display: flex;
+  justify-content: center;
+}
+
+.box{
+  width: 30%;
+  background-color: #ffffff;
+  margin: 20px;
+  /* border: 1px solid #cccccc; */
+
+  box-shadow: 0px 5px 10px 5px rgba(0,0,0,0.1); 
+  /* rgb(red,green,blue), rgba(red,green,blue,alfa)
+  alfa-rangning tiniqlik darajasi*/
+  /* box-shadow: inset 10px 10px 10px 10px rgba(0,0,0,0.1) */
+
+  transition: all 0.4s linear;
+}
+
+.box:hover{
+  box-shadow: 0px 30px 15px 0px rgba(0,0,0,0.1);
+}
+
+.box img{
+  width: 100%;
+}
+
+.box h4, .box p{
+  padding: 0 1rem;
+}
+
+.box p{
+  line-height: 24px;
+  color: #909090;
+}
+
+.box h4{
+  text-transform: uppercase;
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-shadow: 5px 2px 2px rgba(80,80,80,0.3);
+}

@@ -1,0 +1,86 @@
+/* .flex div:nth-child(1) */
+
+/* toq son */
+
+/* .flex div:nth-of-type(odd) */
+
+/* juft son */
+
+/* .flex div:nth-of-type(even) */
+
+.flex div {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  margin: .51rem;
+  color: #fff;
+  /* text-align: center; */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* text-align: right; */
+}
+
+.flex div:nth-child(1) {
+  /* order: 4; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 0; */
+  /* flex-basis: 50px; */
+  /* flex: 0 0 200px; */
+  align-self: flex-start;
+}
+
+.flex div:nth-child(2) {
+  /* order: 3; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 2; */
+  /* flex-basis: 250px; */
+  /* flex: 0 0 100px; */
+  align-self: flex-end;
+}
+
+.flex div:nth-child(3) {
+  /* order: 2; */
+  /* flex-grow: 1; */
+  /* flex-shrink: 4; */
+  /* flex-basis: 50px; */
+  /* flex: 0 0 200px; */
+  align-self: flex-start;
+}
+
+.flex div:nth-child(4) {
+  /* order: 1; */
+  /* flex-grow: 4; */
+  /* flex-shrink: 5; */
+  /* flex-basis: 50px; */
+  /* flex: 0 0 100px; */
+  align-self: flex-end;
+}
+
+.flex {
+  border: 1px solid;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  height: 300px;
+}
+
+/* .flexP {
+  width: 400px;
+  height: 400px;
+  background: rosybrown;
+  border: 5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* p {
+  width: 50px;
+  height: 50px;
+  background: red;
+} */

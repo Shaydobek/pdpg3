@@ -1,0 +1,70 @@
+.wrapper {
+    margin: 100px auto;
+    padding-left: 400px;
+
+}
+
+.col {
+
+    background: url("../images/Rectangle Copy 20.png")no-repeat;
+    width: 700px;
+    height: 200px;
+    background-size: 280px;
+
+}
+
+.rep a {
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.mtz {
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+p {
+    font-size: 13px;
+    color: #706e6e;
+}
+
+.vip {
+    margin-left: 295px;
+
+}
+
+.war {
+    margin-right: 20px;
+    margin-top: 28px;
+}
+
+.vip1 {
+    margin-left: 190px;
+}
+
+.col2 {
+    background: url("../images/Rectangle Copy 21.png")no-repeat;
+    width: 700px;
+    height: 200px;
+    background-size: 280px;
+    margin-top: 25px;
+}
+
+.col3 {
+    background: url("../images/Rectangle Copy 22.png")no-repeat;
+    width: 700px;
+    height: 200px;
+    background-size: 280px;
+    margin-top: 25px;
+}
+
+.mtz2 {
+    margin-bottom: 40px;
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 18px;
+}

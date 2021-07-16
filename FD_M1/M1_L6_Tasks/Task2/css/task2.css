@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("./font/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./font/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./font/OpenSans-Bold.ttf") format("truetype");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.block-image {
+  background-image: url("../images/12.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.block-text{
+  display: inline-block;
+  font-size: 70px;
+  text-align: center;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-family: "OpenSans-Bold", sans-serif;
+}
+
+a{
+  font-size: 24px;
+  color: white;
+  border: 1px solid grey;
+  text-decoration: none;
+  padding: 5px 15px;
+  font-family: "OpenSans-Regular", sans-serif;
+  display: inline-block;
+}

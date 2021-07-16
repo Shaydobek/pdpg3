@@ -1,0 +1,20 @@
+mark {
+  background-color: blueviolet;
+  color: white;
+}
+
+ul {
+  color: green;
+}
+
+.cars {
+  color: red;
+}
+
+#my_id {
+  color: blue;
+}
+
+.my-class {
+  color: blue;
+}

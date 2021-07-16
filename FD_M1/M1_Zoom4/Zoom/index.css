@@ -1,0 +1,115 @@
+html {
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+span {
+  /* soat strelkasi buyicha   tepa, ung taraf, past, chap*/
+  /* padding: 1rem 2rem 1rem 3rem; */
+  /* tepa past, ung chap */
+  padding: 1rem 2rem;
+  /* none: kursatmaydi */
+  /* display: none; */
+  /* visibility: hidden; */
+  border: 1px solid;
+  height: 4rem;
+  width: 10rem;
+  display: inline;
+}
+
+.div {
+  width: 100px;
+  background: #888;
+  height: 100px;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.visNone {
+  visibility: hidden;
+  /* display: none; */
+}
+
+img {
+  /* float: none; */
+  /* float: left; */
+  /* float: right; */
+  margin: 0 auto;
+  display: block;
+}
+
+/* body { */
+
+/* background-image: url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg'); */
+
+/* background-repeat: no-repeat; */
+
+/* background-attachment: fixed; */
+
+/* background-position: center left, top right; */
+
+/* background-size: cover; */
+
+/* cover: egallaydi */
+
+/* background-size: contain; */
+
+/* background: red url('https://cdn.pixabay.com/photo/2014/02/27/16/10/tree-276014__340.jpg') no-repeat fixed center; */
+
+/* } */
+
+p {
+  /* text-decoration: line-through; */
+  /* del tag */
+  /* text-decoration: underline; */
+  /* text-decoration: overline; */
+  /* text-decoration: overline dotted red; */
+  /* text-transform: capitalize; */
+  /* text-transform: lowercase; */
+  /* text-transform: uppercase; */
+  /* text-transform: full-width; */
+}
+
+h1 {
+  text-shadow: 1px 1px 1px rgb(255, 0, 0);
+}
+
+#box {
+  box-shadow: 3px 2px 2px red;
+  /* width: 104px; */
+  /* white-space: wrap; */
+  /* white-space: nowrap; */
+  /* uramaslik */
+  white-space: break-spaces;
+}
+
+#boxModel {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  background: rgba(100, 20, 40, 0.7);
+  padding: 10px;
+  margin: 10px 34px;
+}
+
+#buttonParent {}
+
+input {
+  height: 100px;
+}
+
+button {
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* border: 1px solid; */
+  width: 300px;
+  height: 40px;
+}
+
+/*  */
